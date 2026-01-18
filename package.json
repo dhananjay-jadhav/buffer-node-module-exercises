@@ -1,0 +1,13 @@
+{
+  "name": "buffer-node-module-exercises",
+  "packageManager": "yarn@4.12.0",
+  "type": "module",
+  "scripts": {
+    "exe1": "ts-node exercises/exercise-1-create-zero-filled-buffer.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}

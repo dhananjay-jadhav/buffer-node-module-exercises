@@ -1,0 +1,28 @@
+import { Buffer} from 'node:buffer';
+
+// Task Requirements
+
+// Create a buffer of 10 bytes using Buffer.alloc()
+// Display the buffer content
+// Display each byte value using a loop
+// Verify all bytes are zero
+
+
+const buffer = Buffer.alloc(10,0);
+
+console.log(buffer);
+
+for(const value of buffer.values()){
+    console.log(value);
+}
+
+let isZero = false;
+for(const value of buffer.values()){
+    if(value === 0){
+        isZero = true;
+    } else {
+        isZero = false;
+    }
+}
+
+console.log('Buffer is zero :',isZero);
