@@ -9,7 +9,9 @@
     "exe4": "ts-node exercises/exercise-4-create-buffer-from-array.ts",
     "exe5": "ts-node exercises/exercise-5-copy-vs-reference.ts",
     "exe6": "ts-node exercises/exercise-6-concatenate-multiple-buffers.ts",
-    "exe7": "ts-node exercises/exercise-7-unsafe-allocation.ts"
+    "exe7": "ts-node exercises/exercise-7-unsafe-allocation.ts",
+    "exe8": "ts-node exercises/exercise-8-base64-encoding.ts",
+    "exe9": "ts-node exercises/exercise-9-hexadecimal-operations.ts"
   },
   "devDependencies": {
     "@types/node": "^25.0.9",
