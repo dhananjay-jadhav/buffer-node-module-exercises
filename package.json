@@ -8,7 +8,8 @@
     "exe3": "ts-node exercises/exercise-3-create-buffer-from-string.ts",
     "exe4": "ts-node exercises/exercise-4-create-buffer-from-array.ts",
     "exe5": "ts-node exercises/exercise-5-copy-vs-reference.ts",
-    "exe6": "ts-node exercises/exercise-6-concatenate-multiple-buffers.ts"
+    "exe6": "ts-node exercises/exercise-6-concatenate-multiple-buffers.ts",
+    "exe7": "ts-node exercises/exercise-7-unsafe-allocation.ts"
   },
   "devDependencies": {
     "@types/node": "^25.0.9",
