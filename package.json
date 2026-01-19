@@ -11,7 +11,9 @@
     "exe6": "ts-node exercises/exercise-6-concatenate-multiple-buffers.ts",
     "exe7": "ts-node exercises/exercise-7-unsafe-allocation.ts",
     "exe8": "ts-node exercises/exercise-8-base64-encoding.ts",
-    "exe9": "ts-node exercises/exercise-9-hexadecimal-operations.ts"
+    "exe9": "ts-node exercises/exercise-9-hexadecimal-operations.ts",
+    "exe10": "ts-node exercises/exercise-10-multiple-encoding-comparison.ts",
+    "exe11": "ts-node exercises/exercise-11-buffer-byteLength.ts"
   },
   "devDependencies": {
     "@types/node": "^25.0.9",
