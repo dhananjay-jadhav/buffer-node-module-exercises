@@ -6,7 +6,8 @@
     "exe1": "ts-node exercises/exercise-1-create-zero-filled-buffer.ts",
     "exe2": "ts-node exercises/exercise-2-create-pre-filled-buffer.ts",
     "exe3": "ts-node exercises/exercise-3-create-buffer-from-string.ts",
-    "exe4": "ts-node exercises/exercise-4-create-buffer-from-array.ts"
+    "exe4": "ts-node exercises/exercise-4-create-buffer-from-array.ts",
+    "exe5": "ts-node exercises/exercise-5-copy-vs-reference.ts"
   },
   "devDependencies": {
     "@types/node": "^25.0.9",
