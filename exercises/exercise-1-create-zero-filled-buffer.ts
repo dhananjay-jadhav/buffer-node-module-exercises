@@ -11,6 +11,7 @@ import { Buffer} from 'node:buffer';
 const buffer = Buffer.alloc(10,0);
 
 console.log(buffer);
+console.log(buffer.length);
 
 for(const value of buffer.values()){
     console.log(value);
@@ -25,4 +26,7 @@ for(const value of buffer.values()){
     }
 }
 
+const isZeroEvery = buffer.every((value) => value === 1);
+
+console.log('Buffer is zero every:',isZeroEvery);
 console.log('Buffer is zero :',isZero);
